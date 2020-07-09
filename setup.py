@@ -1,11 +1,12 @@
-import setuptools
+from setuptools import find_packages
+
 
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
     name="boring_logger",  # Replace with your own username
-    version="0.0.2",
+    version="0.0.4",
     author="Alex Newman",
     author_email="boringlogger@wuli.nu",
     description="I have to make this thing over and over again and I bet so do you",
@@ -19,4 +20,5 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     python_requires=">=3.6",
+    packages=find_packages()
 )
