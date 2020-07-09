@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="boring_logger",  # Replace with your own username
-    version="0.0.2",
+    version="0.0.3",
     author="Alex Newman",
     author_email="boringlogger@wuli.nu",
     description="I have to make this thing over and over again and I bet so do you",
